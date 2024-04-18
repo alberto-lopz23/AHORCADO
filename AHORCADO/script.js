@@ -71,7 +71,7 @@ function adivinarLetra(letra) {
     verificarVictoria();
 }
 
-// agregamos un score
+// SI PUEDES AGREGAR EL SCORE TE LO AGRADECERÍA.
 let score = document.querySelector('.score')
 function verificarVictoria() {
     if (!palabraOculta.includes('_')) {
